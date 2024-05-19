@@ -29,7 +29,7 @@ function LoginPage() {
 
       <main className="container">
         <section className="login-page mt-4">
-          <h2>Yuk, login untuk menggunakan aplikasi.</h2>
+          <h2>Yukk, login test untuk menggunakan aplikasi.</h2>
           <LoginInput login={onLogin} />
           <p className="mt-2">
             "Belum punya akun?"
