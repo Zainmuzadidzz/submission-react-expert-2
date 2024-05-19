@@ -35,7 +35,7 @@ describe('Login spec', () => {
 
   it('should display alert when password is empty', () => {
     // mengisi email
-    cy.get('input[placeholder="Email"]').type('EmailTest');
+    cy.get('input[placeholder="Email"]').type('EmailTest@gmail.com');
 
     // klik tombol login tanpa mengisi password
     cy.get('button')
@@ -50,10 +50,10 @@ describe('Login spec', () => {
 
   it('should display alert when email and password are wrong', () => {
     // mengisi email
-    cy.get('input[placeholder="Email"]').type('EmailTest');
+    cy.get('input[placeholder="Email"]').type('EmailTest@gmail.com');
 
     // mengisi password yang salah
-    cy.get('input[placeholder="Password"]').type('wrong_password');
+    cy.get('input[placeholder="Password"]').type('PasswordTest');
 
     // menekan tombol Login
     cy.get('button')
