@@ -28,4 +28,8 @@ function asyncreceiveLeaderboardsActionCreator() {
   };
 }
 
-export { ActionType, asyncreceiveLeaderboardsActionCreator };
+export {
+  ActionType,
+  asyncreceiveLeaderboardsActionCreator,
+  receiveLeaderboardsActionCreator,
+};
