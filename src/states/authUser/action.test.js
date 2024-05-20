@@ -9,7 +9,9 @@
  *  - should handle unset authenticated user
  */
 
-import { describe, it, vi, expect } from 'vitest';
+import {
+  describe, it, vi, expect,
+} from 'vitest';
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
 import api from '../../utils/api';
 import {

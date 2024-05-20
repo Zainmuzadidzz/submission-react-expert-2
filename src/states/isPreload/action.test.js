@@ -7,7 +7,9 @@
  *  - should dispatch actions correctly when preload process fails
  */
 
-import { describe, beforeEach, afterEach, it, vi, expect } from 'vitest';
+import {
+  describe, beforeEach, afterEach, it, vi, expect,
+} from 'vitest';
 import { hideLoading, showLoading } from 'react-redux-loading-bar';
 import api from '../../utils/api';
 import { setAuthUserActionCreator } from '../authUser/action';

@@ -35,7 +35,7 @@ describe('authUserReducer', () => {
     const action = {
       type: ActionType.SET_AUTH_USER,
       payload: {
-        authUser: authUser,
+        authUser,
       },
     };
 

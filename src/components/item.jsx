@@ -98,7 +98,10 @@ function ThreadItem({
                   <span className="mb-0">{postedAt(createdAt)}</span>
                 </li>
                 <li className="list-inline-item">
-                  <span className="mb-0">dibuat oleh {owner.name}</span>
+                  <span className="mb-0">
+                    dibuat oleh
+                    {owner.name}
+                  </span>
                 </li>
               </ul>
             </div>
