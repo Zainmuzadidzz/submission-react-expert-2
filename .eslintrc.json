@@ -20,11 +20,12 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", " cypress"],
+  "plugins": ["react", " cypress", "import"],
   "rules": {
     "eol-last": "off",
     "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error"
+    "react/jsx-uses-vars": "error",
+    "import/prefer-default-export": "off"
   },
   "ignorePatterns": ["node_modules", "/public/**", "/resources/** "]
 }

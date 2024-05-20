@@ -9,6 +9,7 @@
  *   - should display homepage when registration is successful
  */
 
+/* global describe, beforeEach, it, cy, expect */
 describe('Register spec', () => {
   beforeEach(() => {
     cy.visit('http://localhost:5173/register');

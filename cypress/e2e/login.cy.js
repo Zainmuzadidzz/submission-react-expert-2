@@ -6,7 +6,7 @@
  *   - should display alert when email and password are wrong
  *   - should display homepage when email and password are correct
  */
-
+/* global describe, beforeEach, it, cy, expect */
 describe('Login spec', () => {
   beforeEach(() => {
     cy.visit('http://localhost:5173/');
