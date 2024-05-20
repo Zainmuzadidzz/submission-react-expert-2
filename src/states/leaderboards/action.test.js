@@ -7,7 +7,9 @@
  *  - should dispatch actions and call alert correctly when data fetching fails
  */
 
-import { describe, it, vi, expect } from 'vitest';
+import {
+  describe, it, vi, expect,
+} from 'vitest';
 import { hideLoading, showLoading } from 'react-redux-loading-bar';
 import api from '../../utils/api';
 import {

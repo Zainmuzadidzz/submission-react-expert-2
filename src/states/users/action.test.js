@@ -7,7 +7,9 @@
  *  - should handle user registration failure
  */
 
-import { describe, it, vi, expect } from 'vitest';
+import {
+  describe, it, vi, expect,
+} from 'vitest';
 import api from '../../utils/api';
 import { asyncRegisterUser } from './action';
 

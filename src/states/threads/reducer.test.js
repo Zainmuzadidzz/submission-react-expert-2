@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /**
  * Test scenarios for threadsReducer:
  *

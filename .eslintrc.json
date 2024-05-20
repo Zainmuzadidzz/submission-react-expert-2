@@ -1,31 +1,23 @@
 {
-  "root": true,
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "node": true,
-    "cypress/globals": true
-  },
-  "extends": [
-    "plugin:react/recommended",
-    "airbnb",
-    "prettier",
-    "eslint:recommended"
-  ],
-  "parser": "@babel/eslint-parser",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
     },
-    "ecmaVersion": 12,
-    "sourceType": "module"
-  },
-  "plugins": ["react", " cypress", "import"],
-  "rules": {
-    "eol-last": "off",
-    "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error",
-    "import/prefer-default-export": "off"
-  },
-  "ignorePatterns": ["node_modules", "/public/**", "/resources/** "]
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+    }
 }
