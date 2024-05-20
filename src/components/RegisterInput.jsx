@@ -17,6 +17,7 @@ function RegisterInput({ register }) {
         <input
           type="text"
           value={name}
+          placeholder="Name"
           onChange={onNameChange}
           className="form-control"
           id="exampleInputtext"
@@ -29,6 +30,7 @@ function RegisterInput({ register }) {
         </label>
         <input
           type="email"
+          placeholder="Email"
           value={email}
           onChange={onEmailChange}
           className="form-control"
@@ -42,6 +44,7 @@ function RegisterInput({ register }) {
         </label>
         <input
           type="password"
+          placeholder="Password"
           value={password}
           onChange={onPasswordChange}
           className="form-control"
