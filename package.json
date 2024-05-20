@@ -7,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "npm run lint:eslint && npm run lint:prettier",
-    "lint:eslint": "eslint --fix .",
-    "lint:prettier": "prettier --write .",
+    "lint": "npx eslint ./src --ext .jsx --ext .js",
     "test": "vitest",
     "e2e": "cypress run ",
     "ci:test": "vitest --no-watch && start-server-and-test dev http-get://localhost:5173 e2e"

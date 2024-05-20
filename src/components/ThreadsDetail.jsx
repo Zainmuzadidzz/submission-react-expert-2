@@ -71,7 +71,11 @@ function ThreadsDetail({
               </li>
               <li className="list-inline-item">
                 <div className="d-flex align-items-center">
-                  <span className="mb-0">dibuat oleh {owner.name}</span>
+                  <span className="mb-0">
+                    dibuat oleh
+                    {' '}
+                    {owner.name}
+                  </span>
                   <img
                     src={owner.avatar}
                     alt="Avatar"

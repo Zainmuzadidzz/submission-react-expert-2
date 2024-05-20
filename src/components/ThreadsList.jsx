@@ -4,7 +4,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ThreadItem from './item';
 
-function ThreadsList({ threads, upVote, downVote, neutralizeVote }) {
+function ThreadsList({
+  threads, upVote, downVote, neutralizeVote,
+}) {
   if (!threads || threads.length === 0) {
     return null;
   }

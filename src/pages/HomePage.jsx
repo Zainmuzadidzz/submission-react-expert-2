@@ -53,9 +53,7 @@ function HomePage() {
   const categories = [...new Set(threads.map((thread) => thread.category))];
 
   const handleCategoryClick = (category) => {
-    setSelectedCategory((prevCategory) =>
-      prevCategory === category ? null : category,
-    );
+    setSelectedCategory((prevCategory) => (prevCategory === category ? null : category));
   };
 
   return (
@@ -72,7 +70,8 @@ function HomePage() {
                   }`}
                   onClick={() => handleCategoryClick(category)}
                 >
-                  #{category}
+                  #
+                  {category}
                 </button>
               </li>
             ))}
