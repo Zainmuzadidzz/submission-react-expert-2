@@ -6,7 +6,13 @@
     "node": true,
     "cypress/globals": true
   },
-  "extends": ["plugin:react/recommended", "airbnb", "prettier"],
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier",
+    "eslint:recommended"
+  ],
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -16,7 +22,9 @@
   },
   "plugins": ["react", " cypress"],
   "rules": {
-    "eol-last": "off"
+    "eol-last": "off",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
   },
   "ignorePatterns": ["node_modules", "/public/**", "/resources/** "]
 }
